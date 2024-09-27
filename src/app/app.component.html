@@ -1,0 +1,7 @@
+<div class="weather">
+
+  <!-- <h1 class="display-2" id="h">Weather App</h1> -->
+  <app-city-input (weatherData)="weatherData = $event"></app-city-input>
+  <app-weather-display [cityName]="cityName" [weatherData]="weatherData"></app-weather-display>
+  <!-- <app-date-time-display></app-date-time-display> -->
+</div>

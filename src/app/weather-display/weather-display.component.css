@@ -1,0 +1,20 @@
+.col-4 {
+    background-color: #80bff9;
+    opacity: 70%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+   p {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  

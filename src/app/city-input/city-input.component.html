@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-4">
+
+      <form (ngSubmit)="onSubmit()">
+        <div class="input-group">
+          <input type="text" class="form-control" [(ngModel)]="cityName" name="cityName" placeholder="Enter city name"
+            required>
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Get Weather</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

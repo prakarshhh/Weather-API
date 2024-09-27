@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+
+    background-image: url("./assets/cloud-blue-sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    /* Set your desired font family */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* Ensure the background covers the entire viewport height */
+}
